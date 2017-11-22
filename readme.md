@@ -1,12 +1,5 @@
 # AngularJS Admin with Codeigntier [![Build Status](https://secure.travis-ci.org/yeoman/generator-angular.svg?branch=master)](http://travis-ci.org/yeoman/generator-angular)
 
-> This repository implements "sb-admin-angular" angularjs admin theme with codeigniter. Just clone the repo and start developing Admin app with CI and Angular.
-
-There are many starting points for building a new Angular single page app, This is a simple approach to start a project with angularjs and Codeigniter within a sec.
-
-> demo http://neomakebd.com/apsilon/login
-> username : admin
-> password : admin
 
 ## Usage
 
@@ -24,7 +17,7 @@ sudo git clone https://github.com/mehdi89/sb-admin-angularjs-codeigniter.git
 
 ## Contributor
 
-Project owner - [Mehedi Hasan](https://github.com/mehdi89/)
+Project owner - [Mohd Belal](https://github.com/mohdbred/)
 
 ## Changelog
 
