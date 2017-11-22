@@ -8,7 +8,7 @@ For step-by-step instructions on using this repo to build a TODO AngularJS appli
 
 Installation of this repo is so so easy just clone and browse. thats it !!
 ```
-sudo git clone https://github.com/mehdi89/sb-admin-angularjs-codeigniter.git
+sudo git clone https://github.com/mohdbred/ci_angular.git
 ```
 
 ## Preview 
