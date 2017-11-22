@@ -1,5 +1,6 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -19,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | Please see the user guide for complete details:
 |
-|	https://codeigniter.com/user_guide/general/routing.html
+|	http://codeigniter.com/user_guide/general/routing.html
 |
 | -------------------------------------------------------------------------
 | RESERVED ROUTES
@@ -51,12 +52,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
-$route['translate_uri_dashes'] = FALSE;
-$route['templates/(:any)'] = "templates/view/$1";
-
-$route['items'] = "items/index";
-$route['itemsCreate']['post'] = "items/store";
-$route['itemsEdit/(:any)'] = "items/edit/$1";
-$route['itemsUpdate/(:any)']['put'] = "items/update/$1";
-$route['itemsDelete/(:any)']['delete'] = "items/delete/$1";
-
+$route['translate_uri_dashes'] = false;

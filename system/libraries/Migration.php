@@ -6,7 +6,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014 - 2016, British Columbia Institute of Technology
+ * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -28,10 +28,10 @@
  *
  * @package	CodeIgniter
  * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
+ * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	https://codeigniter.com
+ * @link	http://codeigniter.com
  * @since	Version 3.0.0
  * @filesource
  */
@@ -191,7 +191,7 @@ class CI_Migration {
 	 * choice
 	 *
 	 * @param	string	$target_version	Target schema version
-	 * @return	mixed	TRUE if no migrations are found, current version string on success, FALSE on failure
+	 * @return	mixed	TRUE if already latest, FALSE if failed, string if upgraded
 	 */
 	public function version($target_version)
 	{
@@ -294,7 +294,7 @@ class CI_Migration {
 	/**
 	 * Sets the schema to the latest migration
 	 *
-	 * @return	mixed	Current version string on success, FALSE on failure
+	 * @return	mixed	TRUE if already latest, FALSE if failed, string if upgraded
 	 */
 	public function latest()
 	{
@@ -318,7 +318,7 @@ class CI_Migration {
 	/**
 	 * Sets the schema to the migration version set in config
 	 *
-	 * @return	mixed	TRUE if no migrations are found, current version string on success, FALSE on failure
+	 * @return	mixed	TRUE if already current, FALSE if failed, string if upgraded
 	 */
 	public function current()
 	{
