@@ -9,9 +9,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <script>
         var BASE_URL = "<?php echo site_url(); ?>";
     </script>
-    <script>
-        var SRC_BASE = "<?php echo site_url(); ?>app/libs/";
-    </script>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -23,7 +20,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <link rel="stylesheet" href="app/styles/libs/metisMenu.min.css">
     <link rel="stylesheet" href="app/styles/libs/loading-bar.min.css">
     <link rel="stylesheet" href="app/styles/libs/font-awesome.min.css" type="text/css">
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic"> -->
 
     <script src="app/js/libs/jquery.min.js"></script>
     <script src="app/js/libs/angular.min.js"></script>
@@ -36,16 +32,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <script src="app/js/libs/ui-bootstrap-tpls.min.js"></script>
     <script src="app/js/libs/metisMenu.min.js"></script>
 
-    <script src="app/scripts/app.js"></script>
     <script src="app/scripts/custom.js"></script>
-    <script src="app/scripts/controllers/MainViewCtrl.js"></script>
+<!--    <script src="app/scripts/controllers/MainViewCtrl.js"></script>-->
     <script src="app/js/sb-admin-2.js"></script>
 
     </head>
 
     <body>
 
-    <div ng-app="ApsilonApp">
+    <div ng-app="OnePoint">
 
         <div ui-view></div>
 

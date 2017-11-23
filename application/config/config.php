@@ -2,7 +2,7 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$config['title'] = 'Apsilon APP';
+$config['title'] = 'OneCorner';
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
