@@ -7,7 +7,7 @@
  * # adminPosHeader
  */
 
-angular.module('ApsilonApp')
+angular.module('OnePoint')
   .directive('sidebarSearch',function() {
     return {
       templateUrl:'app/scripts/directives/sidebar/sidebar-search/sidebar-search.html',

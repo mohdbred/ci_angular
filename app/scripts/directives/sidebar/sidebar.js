@@ -7,7 +7,7 @@
  * # adminPosHeader
  */
 
-angular.module('ApsilonApp')
+angular.module('OnePoint')
   .directive('sidebar',['$location',function() {
     return {
       templateUrl:'directives/sidebar',

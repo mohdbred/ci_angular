@@ -4,7 +4,7 @@
 <html data-wf-domain="press-cms.webflow.io" data-wf-page="589ca73cacf809b40207a9e8" data-wf-site="5817a2bb21e57b9f13ff049f">
     <head>
         <meta charset="utf-8">
-        <title>Press - Webflow HTML website template</title>
+        <title>Press - OnePoint</title>
         <meta content="Press CMS Blog is a magazine-style template for all your blogging needs. With its powerful CMS, you&#39;ll be ready to publish immediately. Try its 2 different layouts and multiple sections today." name="description">
         <meta content="Press - Webflow HTML website template" property="og:title">
         <meta content="Press CMS Blog is a magazine-style template for all your blogging needs. With its powerful CMS, you&#39;ll be ready to publish immediately. Try its 2 different layouts and multiple sections today." property="og:description">

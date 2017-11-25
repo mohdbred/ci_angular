@@ -22,21 +22,22 @@ angular
         events: true,
       });
 
-      $urlRouterProvider.otherwise('/mainview/Home');
+      $urlRouterProvider.otherwise('/mainview');
 
       $stateProvider
         .state('mainview', {
           url: '/mainview',
+          controller: 'MainViewCtrl',
           templateUrl: 'mainview/main',
           resolve: {
             loadMyDirectives: function($ocLazyLoad) {
               return $ocLazyLoad.load({
                   name: 'OnePoint',
                   files: [
-//                    'app/scripts/directives/header/header.js',
-//                    'app/scripts/directives/header/header-notification/header-notification.js',
-//                    'app/scripts/directives/sidebar/sidebar.js',
-//                    'app/scripts/directives/sidebar/sidebar-search/sidebar-search.js'
+                    'app/scripts/directives/header/header.js',
+                    'app/scripts/directives/header/header-notification/header-notification.js',
+                    'app/scripts/directives/sidebar/sidebar.js',
+                    'app/scripts/directives/sidebar/sidebar-search/sidebar-search.js'
                   ]
                 }),
                 $ocLazyLoad.load({
@@ -64,25 +65,25 @@ angular
             }
           }
         })
-        .state('mainview.home', {
-          url: '/Home',
-          controller: 'MainCtrl',
-          templateUrl: 'mainview/home',
-          resolve: {
-            loadMyFiles: function($ocLazyLoad) {
-              return $ocLazyLoad.load({
-                name: 'OnePoint',
-                files: [
-//                  'app/scripts/controllers/main.js',
-//                  'app/scripts/directives/mainview/stats/stats.js',
-//                  'app/scripts/directives/timeline/timeline.js',
-//                  'app/scripts/directives/notifications/notifications.js',
-//                  'app/scripts/directives/chat/chat.js',
-                ]
-              })
-            }
-          }
-        })
+//        .state('mainview.home', {
+//          url: '/Home',
+//          controller: 'MainCtrl',
+//          templateUrl: 'mainview/home',
+//          resolve: {
+//            loadMyFiles: function($ocLazyLoad) {
+//              return $ocLazyLoad.load({
+//                name: 'OnePoint',
+//                files: [
+////                  'app/scripts/controllers/main.js',
+////                  'app/scripts/directives/mainview/stats/stats.js',
+////                  'app/scripts/directives/timeline/timeline.js',
+////                  'app/scripts/directives/notifications/notifications.js',
+////                  'app/scripts/directives/chat/chat.js',
+//                ]
+//              })
+//            }
+//          }
+//        })
         .state('mainview.form', {
           templateUrl: 'form',
           url: '/form'

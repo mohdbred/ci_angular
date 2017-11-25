@@ -6,7 +6,7 @@
  * @description
  * # adminPosHeader
  */
-angular.module('ApsilonApp')
+angular.module('OnePoint')
 	.directive('headerNotification',function(){
 		return {
         templateUrl:'app/scripts/directives/header/header-notification/header-notification.html',

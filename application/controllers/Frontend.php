@@ -35,7 +35,7 @@ class Frontend extends CI_Controller {
         if ($err) {
             echo "cURL Error #:" . $err;
         } else {
-            $this->load->view('layout', $res);
+            $this->load->view('frontend', $res);
         }
         
         //$this->load->view('layout');

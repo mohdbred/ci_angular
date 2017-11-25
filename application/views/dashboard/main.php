@@ -11,7 +11,6 @@
             <div id="page-wrapper" style="min-height: 561px;">
 
                 <div ui-view></div>
-                
             </div>
             <!-- /#page-wrapper -->
     </div>

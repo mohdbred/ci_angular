@@ -6,7 +6,7 @@
  * @description
  * # adminPosHeader
  */
-angular.module('ApsilonApp')
+angular.module('OnePoint')
 	.directive('header',function(){
 		return {
         templateUrl:'directives/header',
