@@ -7,7 +7,7 @@
  * # adminPosHeader
  */
 angular.module('OnePoint')
-	.directive('footer',function(){
+	.directive('footermain',function(){
             console.log("Inside Footer Directive");
 		return {
         templateUrl:'app/scripts/directives/footer/footer.html',

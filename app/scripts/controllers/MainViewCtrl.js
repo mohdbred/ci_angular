@@ -11,15 +11,15 @@ angular.module('OnePoint')
             console.log("Inside Main View Angular controller");
             
             // Now getting data using HTTP POST
-//            $http.get('http://localhost/ci/mainview/get_news_home_data').success(function (result) {
-//
-//                $scope.data = result;
-//                console.log($scope.data);
-//                
-//                
-//            }).error(function (err) {
-//                console.log("Error in HTTP Get Request" + err);
-//            });
+            $http.get('http://localhost/ci/mainview/get_news_home_data').success(function (result) {
+                
+                $scope.datascope = [];
+                $scope.datascope = result;
+                console.log($scope.datascope);
+                
+            }).error(function (err) {
+                console.log("Error in HTTP Get Request" + err);
+            });
             
 
         });

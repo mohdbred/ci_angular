@@ -36,10 +36,10 @@ angular
                                         files: [
 //                                            'app/scripts/directives/header/header.js',
 //                                            'app/scripts/directives/header/header-notification/header-notification.js',
-//                                            'app/scripts/directives/sidebar/sidebar.js',
+                                            'app/scripts/directives/sidebar/sidebar.js',
 //                                            'app/scripts/directives/sidebar/sidebar-search/sidebar-search.js',
 //                                            'app/scripts/directives/timeline/timeline.js',
-//                                            'app/scripts/directives/footer/footer.js',
+                                            'app/scripts/directives/footer/footer.js',
                                         ]
                                     }),
                                             $ocLazyLoad.load({

@@ -4,50 +4,46 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <!doctype html>
 <html class="no-js">
     <head>
-        <!-- WebFlow Header Start-->
+      
         <meta charset="utf-8">
+
         <title>Press - OnePoint</title>
-        <meta content="Press CMS Blog is a magazine-style template for all your blogging needs. With its powerful CMS, you&#39;ll be ready to publish immediately. Try its 2 different layouts and multiple sections today." name="description">
-        <meta content="Press - Webflow HTML website template" property="og:title">
-        <meta content="Press CMS Blog is a magazine-style template for all your blogging needs. With its powerful CMS, you&#39;ll be ready to publish immediately. Try its 2 different layouts and multiple sections today." property="og:description">
-        <meta content="summary" name="twitter:card">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <meta content="Webflow" name="generator">
 
-        <link href="https://daks2k3a4ib2z.cloudfront.net/5817a2bb21e57b9f13ff049f/css/press-cms.webflow.77814207f.css" rel="stylesheet" type="text/css">
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
-        <script type="text/javascript">WebFont.load({
-                google: {
-                    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Merriweather:300,300italic,400,400italic,700,700italic,900,900italic", "Arvo:regular,italic,700,700italic", "Dosis:200,300,regular,500,600,700,800"]
-                }
-            });</script>
-        <!--[if lt IE 9]>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script>
-        <![endif]-->
-        <script type="text/javascript">!function (o, c) {
-                var n = c.documentElement, t = " w-mod-";
-                n.className += t + "js", ("ontouchstart"in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
-            }(window, document);
-        </script>
-        <link href="https://daks2k3a4ib2z.cloudfront.net/5817a2bb21e57b9f13ff049f/58252f3e35d0a957501b2990_32x32.png" rel="shortcut icon" type="image/x-icon">
-        <link href="https://daks2k3a4ib2z.cloudfront.net/5817a2bb21e57b9f13ff049f/58252f437f7ca74950e4375e_256X256.png" rel="apple-touch-icon">
-
-        <!-- WebFlow Header End -->
+        <meta name="description" content="OneUI - Admin Dashboard Template &amp; UI Framework created by pixelcave and published on Themeforest">
+        <meta name="author" content="pixelcave">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
         
-        <!-- Angular Admin required files -->
+        <link rel="shortcut icon" href="app/img/favicons/favicon.png">
 
-        <link rel="stylesheet" href="app/styles/libs/bootstrap.min.css" />
-        <link rel="stylesheet" href="app/styles/main.css">
-        <link rel="stylesheet" href="app/styles/sb-admin-2.css">
-        <link rel="stylesheet" href="app/styles/timeline.css">
-        <link rel="stylesheet" href="app/styles/libs/metisMenu.min.css">
-        <link rel="stylesheet" href="app/styles/libs/loading-bar.min.css">
-        <link rel="stylesheet" href="app/styles/libs/font-awesome.min.css" type="text/css">
-
+        <link rel="icon" type="image/png" href="app/img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="app/img/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="app/img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="app/img/favicons/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="app/img/favicons/favicon-192x192.png" sizes="192x192">
+        
+        <link rel="apple-touch-icon" sizes="57x57" href="app/img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="app/img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="app/img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="app/img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="app/img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="app/img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="app/img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="app/img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="app/img/favicons/apple-touch-icon-180x180.png">
+        
+        <!-- Web fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+        
+         <!-- Bootstrap and OneUI CSS framework -->
+        <link rel="stylesheet" href="app/styles/bootstrap.min.css">
+        <link rel="stylesheet" id="css-main" href="app/styles/oneui.css">
+        
+        
         <script src="app/js/libs/jquery.min.js"></script>
         <script src="app/js/libs/angular.min.js"></script>
 
-        <script src="app/js/libs/bootstrap.min.js"></script>
+        <!--<script src="app/js/libs/bootstrap.min.js"></script>-->
         <script src="app/js/libs/angular-ui-router.min.js"></script>
         <script src="app/js/libs/json3.min.js"></script>
         <script src="app/js/libs/ocLazyLoad.min.js"></script>
