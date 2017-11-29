@@ -62,9 +62,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
     </head>
 
     <body>
-
+        
         <div ng-app="OnePoint">
-
+            
             <div ui-view></div>
 
         </div>

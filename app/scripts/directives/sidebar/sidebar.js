@@ -9,6 +9,7 @@
 
 angular.module('OnePoint')
   .directive('sidebar',['$location',function() {
+          console.log("Inside Sidebar Directive");
     return {
       templateUrl:'directives/sidebar',
       restrict: 'E',

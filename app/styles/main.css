@@ -27,7 +27,7 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+  /*border-top: 1px solid #e5e5e5;*/
 }
 
 /* Customize container */
@@ -80,4 +80,17 @@ body {
 .nav>li.active>a {
 text-decoration: none;
 background-color: #eee;
+}
+
+.flex-wrapper.footer-brand{
+    padding-bottom: 5px !important;
+}
+
+.post-preview-image.timeline{
+    height:365px !important;
+}
+
+.latest-videos.post-preview-image.w-inline-block{
+    height: 70px !important;
+    min-height:70px !important;
 }
